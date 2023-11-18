@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica N°2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Silverio Pacheco Choque</h1>
+    <div class="cuerpo">
+        <div class="dato">
+            <label for="num1">NUMERO1: </label>
+            <input type="text" id="num1" name="num1" value="" size="10"/>
+            <label for="num2">NUMERO2: </label>
+            <input type="text" id="num2" name="num2" value="" size="10"/>
+        </div>
+        <br>
+        <div class="botones">
+            <input type="button" id="sumar" value="SUMAR">
+            <input type="button" id="restar" value="RESTAR">
+            <input type="button" id="multiplicar" value="MULTIBLICAR">
+            <input type="button" id="dividir" value="DIVIDIR">
+        </div>
+        <br>
+        <div class="resultado">
+            <p >RESULTADO</p>
+            <span id="total"></span>
+        </div>
+        <br><br><br>
+        <h1 class="text">IMC</h1>
+        <br>
+        <div class="datos">
+            <label for="peso">PESO: </label>
+            <input type="text" id="peso" name="peso" value="" size="10"/>
+        
+            <label for="altura">ALTURA: </label>
+            <input type="text" id="altura" name="altura" value="" size="10"/>
+        </div>
+        <br>
+     <div class="opcion">
+            Masculino <input type="radio" id="sexoM" name="sexo" value="M"/>
+            Femenino <input type="radio" id="sexo" name="sexo" value="F"/>
+                
+        </div>
+        <br>
+        <div class="imc">
+                <input type="button" id="imc" onclick="seleccionado()" value="IMC">
+        </div>
+        <br>
+        <div class="resultadoIMC">
+            <p>RESULTADO</p>
+            <span id="resultadoMC"></span>
+        </div>
+        <br>
+    </div>
+    <script src="./main.js"></script>
+
+
+
+
+    
+</body>
+</html>
